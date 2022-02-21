@@ -1,0 +1,12 @@
+.customButton {
+  background: #3faad7;
+  padding: 15px 72px;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  color: white;
+}

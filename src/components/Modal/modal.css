@@ -1,0 +1,48 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #14142b52;
+  padding: 25px;
+  border-radius: 16px;
+  background: #f9fafc;
+}
+
+.modal h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #000000;
+}
+
+.modal input {
+  margin: 15px 0;
+  border-radius: 16px;
+  border: solid 1px #8080808f;
+  padding: 16px 20px;
+}
+
+.input-submit {
+  background: #3faad7;
+  border: 1px solid #3faad7;
+  padding: 10px 0;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  border-radius: 16px;
+}
+
+.open {
+  display: flex;
+}
+
+.closed {
+  display: none;
+}
+
+.formAddNew {
+  display: flex;
+  flex-direction: column;
+}

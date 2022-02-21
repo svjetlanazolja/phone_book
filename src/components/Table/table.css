@@ -1,0 +1,45 @@
+.table {
+  margin-top: 40px;
+}
+
+.tableContainer table {
+  width: 100%;
+  border: 1px solid #b7b5b5;
+  border-radius: 16px;
+}
+
+table tr th {
+  text-align: left;
+  background: #3faad7;
+}
+
+table tr th:last-child {
+  border-top-right-radius: 15px;
+}
+
+table tr th:first-child {
+  border-top-left-radius: 15px;
+}
+
+table thead {
+  color: white;
+}
+
+tr th,
+tr td {
+  border-bottom: 1px solid #b7b5b5;
+  padding: 15px;
+}
+
+tbody > tr:last-child > td {
+  border-bottom: 0;
+}
+
+.tableImagee1 {
+  margin-right: 15px;
+}
+
+.tableImagee1,
+.tableImage2 {
+  cursor: pointer;
+}
